@@ -1,0 +1,161 @@
+.OurServicesMainContainer {
+  display: flex;
+  overflow: scroll;
+  margin-bottom: 100px;
+  align-items: center;
+  width: 100%;
+}
+.OurServicesMainContainer::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+.OurServicesMainContainer::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.OurServicesMainContainer::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+}
+
+.OurServicesMainContainerWrapper {
+  position: relative;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.ourServicesImageStyle1 {
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin-top: 25%;
+}
+.ourServicesImageStyle2 {
+  height: 550px;
+  width: 100%;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.ourServicesHoverEffectMainContainer {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 10px;
+}
+.ourServicesContentWrapper {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.35);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 111;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 111;
+}
+
+.ourServicesContentWrapper:hover + .ourServicesHoverEffectMainContainer {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #124342;
+  flex-direction: column;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.ourServicesContentWrapper:hover {
+  content-visibility: hidden;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.Services_ContactUs_button_Wrapper {
+  display: flex;
+  align-items: center;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+.Services_Market_Text_Style {
+  color: #e4b850;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: var(--SubHeading-font-family);
+  margin-left: 10px;
+}
+.Services_Desc_Text_Style {
+  color: white;
+  font-size: 1.6rem;
+  font-family: var(--SubHeading-font-family);
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.Services_Text_Style {
+  color: #124342;
+  font-size: 1.7rem;
+  font-family: var(--SubHeading-font-family);
+  margin-left: 10px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.Services_ContactUs_button_Wrapper {
+  background-color: #e4b850;
+  margin-top: 20px;
+}
+.Services_Header_Text_Style {
+}
+.OurServicesButtonStyle {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.swiper_pagination_bullet {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border-radius: 50%;
+  background: #d0d0d0;
+  align-self: center;
+  margin-left: 5px;
+}
+.swiper_pagination_bullet_Active {
+  display: inline-block;
+  background-color: #124342 !important;
+  border-radius: 20px !important;
+}
+.MainFeaturePaginationContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.swiper_pagination_wrapper_Services {
+  display: flex;
+  justify-content: flex-end;
+  overflow: auto;
+}
+.ourServicesButtonWrapperStyle {
+  display: flex;
+  align-items: center;
+}

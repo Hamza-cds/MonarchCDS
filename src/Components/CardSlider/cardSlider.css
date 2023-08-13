@@ -1,0 +1,118 @@
+.swiperMainContentContainer {
+  background-color: white;
+  padding: 10px 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 20px 0;
+}
+.swiperMainContentContainer:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.SwiperImageStyle {
+  width: 100%;
+  height: 200px;
+  border-radius: 20px;
+}
+.SwiperImageContainer {
+  position: relative;
+}
+
+.wiperHeartContainer {
+  height: 30px;
+  width: 30px;
+  border-radius: 100px;
+  background-color: white;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SwiperHeading_Text_Style {
+  font-size: 2.5rem;
+  color: black;
+  font-family: var(--SubHeading-font-family);
+  font-weight: 700;
+}
+.SwiperContentContainer {
+  padding: 0 20px;
+}
+.SwiperLocationContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.SwiperLocationTextStyle {
+  color: #718e8e;
+  font-size: 1.1rem;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.SwiperBedContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.SwiperBathContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.swiperIconContainer {
+  display: flex;
+  align-items: center;
+  max-width: 100px;
+}
+.swiperInfoTextStyle {
+  font-size: 1.3rem;
+  color: black;
+  font-family: var(--SubHeading-font-family);
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.SwiperBottomContentWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.SwiperBottomInfoWrapper {
+  border: 1px solid black;
+  flex: 1;
+  border-radius: 10px;
+  padding-left: 15px;
+}
+
+.SwiperTextWrapperStyle {
+  display: flex;
+  align-items: center;
+}
+.SwiperArrowButtonStyle {
+  background-color: #e3b64b;
+  margin-left: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 10px;
+  padding: 0 20px;
+}
+.SwiperAmountTextStyle {
+  font-size: 2rem;
+  color: black;
+  font-family: var(--SubHeading-font-family);
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.SwiperRentStyle {
+  font-size: 1.3rem;
+  color: black;
+  font-family: var(--SubHeading-font-family);
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.SwiperHeadingContainer {
+  height: 110px;
+  margin-top: 10px;
+}

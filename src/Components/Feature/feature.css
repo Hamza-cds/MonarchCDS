@@ -1,0 +1,36 @@
+.featureMainParentContainer {
+  /* min-height: 50vh; */
+  position: relative;
+  margin-bottom: 200px;
+  padding-left: 4%;
+  margin-top: 400px;
+}
+
+.featureImageBgContainer {
+  background-repeat: no-repeat;
+  background-image: url("../../Assets/FeatureImage.png");
+  height: 650px;
+  width: 60%;
+  position: absolute;
+  top: -250px;
+  left: 4%;
+}
+
+.feature_Explore_Text_Style {
+  font-size: 4rem;
+  color: black;
+  font-family: var(--Heading-font-family);
+  margin-top: 130px;
+  margin-left: 130px;
+  width: 60%;
+}
+.FeatureButtonStule {
+  cursor: pointer;
+  margin-right: 20px;
+}
+.FeatureButtonContainer {
+  display: flex;
+  position: absolute;
+  bottom: 5%;
+  left: 15%;
+}
