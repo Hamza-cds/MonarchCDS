@@ -1,0 +1,26 @@
+.ClineMainBgContainer {
+  min-height: 100vh;
+  width: 85.5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../Assets/ClientBg.png");
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 100px;
+}
+.ClientSatisfied_TextStyle {
+  color: black;
+  font-size: 4rem;
+  font-family: var(--Heading-font-family);
+  width: 30%;
+  position: absolute;
+  margin-top: 25%;
+}
+
+.ClientButtonContainer {
+  display: flex;
+  margin-top: 50px;
+}

@@ -76,7 +76,7 @@ const CardSlider = ({
         direction="horizontal"
         modules={[Navigation]}
         spaceBetween={15}
-        slidesPerView={4}
+        slidesPerView={3.5}
         loop={true}
         navigation={{
           prevEl: navigationPrevRef.current,

@@ -5,6 +5,7 @@ import { SearchIcon } from "../../Assets";
 import OurServices from "../../Components/OurServices/OurServices";
 import Feature from "../../Components/Feature/Feature";
 import OurTeam from "../../Components/OurTeam/OurTeam";
+import ClientComp from "../../Components/ClientComp/ClientComp";
 
 const Home = () => {
   const [activeState, setActiveState] = useState(1);
@@ -59,7 +60,7 @@ const Home = () => {
             <div className="HeaderDropDownWrapper">
               <p className="HeaderTypeTextStyle">Type</p>
               <Select
-                menuPlacement="top"
+                // menuPlacement="top"
                 placeholder={"Houses"}
                 options={options}
                 className="Select_Option_Style"
@@ -84,7 +85,7 @@ const Home = () => {
             <div className="HeaderDropDownWrapper">
               <p className="HeaderTypeTextStyle">Location</p>
               <Select
-                menuPlacement="top"
+                // menuPlacement="top"
                 placeholder={"Location"}
                 options={options}
                 className="Select_Option_Style"
@@ -116,6 +117,7 @@ const Home = () => {
       <OurServices />
       <Feature />
       <OurTeam />
+      <ClientComp />
     </>
   );
 };

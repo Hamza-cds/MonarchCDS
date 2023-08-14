@@ -58,11 +58,35 @@ function OurServices() {
       icon: AssetIcon,
       title: "ASSET MANAGEMENT",
     },
+    {
+      id: 6,
+      image: ServicesImages1,
+      icon: AssetIcon,
+      title: "ASSET MANAGEMENT",
+    },
+    {
+      id: 7,
+      image: ServicesImages,
+      icon: InvestmentsIcon,
+      title: "INVESTMENT CONSULTANCY",
+    },
+    {
+      id: 8,
+      image: ServicesImages1,
+      icon: AssetIcon,
+      title: "ASSET MANAGEMENT",
+    },
+    {
+      id: 9,
+      image: ServicesImages,
+      icon: InvestmentsIcon,
+      title: "INVESTMENT CONSULTANCY",
+    },
   ];
   const navigationPrevRef = React.useRef(null);
   const navigationNextRef = React.useRef(null);
   return (
-    <>
+    <div style={{ flex: "1" }}>
       <Swiper
         direction="horizontal"
         modules={[Navigation]}
@@ -150,7 +174,7 @@ function OurServices() {
           </div>
         </div>
       </Swiper>
-    </>
+    </div>
   );
 }
 

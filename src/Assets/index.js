@@ -29,8 +29,11 @@ export { default as RightFeatureButton } from "./RightFeatureButton.svg";
 export { default as TeamImage1 } from "./TeamImage1.png";
 export { default as TeamImage2 } from "./TeamImage2.png";
 export { default as TeamImage3 } from "./TeamImage3.png";
+export { default as Client1 } from "./Client1.png";
+export { default as Client2 } from "./Client2.png";
 
 export { default as LinkInIcon } from "./LinkInIcon.svg";
 export { default as WhatsUpIcon } from "./WhatsUpIcon.svg";
 export { default as FaceBookIcon } from "./FaceBookIcon.svg";
 export { default as InstagramIcon } from "./InstagramIcon.svg";
+export { default as StartIcon } from "./StartIcon.svg";
