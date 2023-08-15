@@ -21,7 +21,6 @@ import {
 function OurTeam() {
   const [selectedElement, setSelectedElement] = useState(0);
   const [activeSlide, setActiveSlide] = useState(0);
-  console.log("activeSlide", activeSlide);
 
   let arr = [
     { id: 1, name: "Exective Memebers" },

@@ -6,6 +6,8 @@ import OurServices from "../../Components/OurServices/OurServices";
 import Feature from "../../Components/Feature/Feature";
 import OurTeam from "../../Components/OurTeam/OurTeam";
 import ClientComp from "../../Components/ClientComp/ClientComp";
+import BlogsNews from "../../Components/BlogsNews/BlogsNews";
+import TableComp from "../../Components/TableComp/TableComp";
 
 const Home = () => {
   const [activeState, setActiveState] = useState(1);
@@ -117,7 +119,9 @@ const Home = () => {
       <OurServices />
       <Feature />
       <OurTeam />
+      <TableComp />
       <ClientComp />
+      <BlogsNews />
     </>
   );
 };

@@ -1,0 +1,75 @@
+.MainTableContentContainer {
+  width: 85.5%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-bottom: 50px;
+}
+.main_contenttableheader_entry {
+  color: #636363;
+  min-width: 200px;
+  max-width: 200px;
+  font-size: 1.5rem;
+  font-family: var(--SubHeading-font-family);
+  font-weight: bold;
+  border-bottom: 1px solid #636363;
+}
+.ArrayElementStyleOInfo {
+  color: #636363;
+  text-align: center;
+  font-family: var(--SubHeading-font-family);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 20px;
+  cursor: pointer;
+}
+.ArrayElementStyleOInfo.selected {
+  border-bottom: 4px solid #124342;
+  padding-bottom: 20px;
+  font-weight: 500;
+  color: #124342;
+}
+.TableAvailableTextStyle {
+  color: black;
+  font-size: 4rem;
+  font-family: var(--Heading-font-family);
+  text-align: center;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+.PlusIconContainer {
+  display: flex;
+  border: 1px solid #124342;
+  padding: 8px 16px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.PlusIconContainer:hover {
+  transform: scale(1.1);
+}
+.PlusTextStyle {
+  color: #124342;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  font-family: var(--SubHeading-font-family);
+  font-weight: bold;
+  margin-left: 10px;
+}
+.TableMainParentContainer {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}

@@ -37,3 +37,9 @@ export { default as WhatsUpIcon } from "./WhatsUpIcon.svg";
 export { default as FaceBookIcon } from "./FaceBookIcon.svg";
 export { default as InstagramIcon } from "./InstagramIcon.svg";
 export { default as StartIcon } from "./StartIcon.svg";
+
+export { default as BlogImage1 } from "./BlogImage1.png";
+export { default as BlogImage2 } from "./BlogImage2.png";
+export { default as BlogIcon1 } from "./BlogIcon1.svg";
+export { default as BlogIcon2 } from "./BlogIcon2.svg";
+export { default as PlusIcon } from "./PlusIcon.svg";

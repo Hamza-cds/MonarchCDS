@@ -12,5 +12,37 @@
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  margin-bottom: 200px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.LetsFindTextStyle {
+  color: white;
+  font-size: 4.5rem;
+  font-family: var(--Heading-font-family);
+  text-align: center;
+}
+.FindBookButton {
+  background-color: white;
+  color: var(--color-primary);
+  font-size: 1.3rem;
+  font-family: var(--Heading-font-family);
+  display: inline;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.FindBookButton:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.LetsfindTextContainer {
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 7.5%;
 }
