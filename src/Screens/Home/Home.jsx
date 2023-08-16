@@ -8,6 +8,11 @@ import OurTeam from "../../Components/OurTeam/OurTeam";
 import ClientComp from "../../Components/ClientComp/ClientComp";
 import BlogsNews from "../../Components/BlogsNews/BlogsNews";
 import TableComp from "../../Components/TableComp/TableComp";
+import TrendingProjects from "../../Components/TrendingProjects/TrendingProjects";
+import ColabratePartner from "../../Components/CollaborativePartner/ColabratePartner";
+import MonarchChosing from "../../Components/ChoosingMonarch/MonarchChosing";
+import Properties from "../../Components/PropertiesComponant/Properties";
+import Interested from "../../Components/Interested/Interested";
 
 const Home = () => {
   const [activeState, setActiveState] = useState(1);
@@ -118,10 +123,15 @@ const Home = () => {
       </section>
       <OurServices />
       <Feature />
+      <Interested />
       <OurTeam />
       <TableComp />
+      <TrendingProjects />
       <ClientComp />
+      <ColabratePartner />
       <BlogsNews />
+      <MonarchChosing />
+      <Properties />
     </>
   );
 };

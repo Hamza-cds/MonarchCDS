@@ -8,13 +8,12 @@
   width: 674px;
   color: var(--dark-blue, rgba(1, 35, 34, 0.97));
   text-align: center;
-  font-family: Montserrat;
   font-size: 4rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   margin: 30px auto; /* Center vertically and horizontally */
-  font-family: var(--SubHeading-font-family);
+  font-family: var(--Heading-font-family);
 }
 .ArrayHeadingBlock {
   overflow: scroll;
@@ -29,9 +28,7 @@
   width: 5px;
   height: 5px;
 }
-/* .ArrayHeadingBlock::-webkit-scrollbar-track {
-    background-color: red;
-  } */
+
 .ArrayHeadingBlock::-webkit-scrollbar-thumb {
   border-radius: 50px;
 }

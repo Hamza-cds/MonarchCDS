@@ -1,0 +1,12 @@
+.mainBuyParentContainer {
+  width: 85.5%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 7%;
+  display: flex;
+}
+.BuyDreamHomeTextStyle {
+  color: black;
+  font-size: 3.5rem;
+  font-family: var(--Heading-font-family);
+}

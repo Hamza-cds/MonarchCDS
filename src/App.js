@@ -12,6 +12,7 @@ import Services from "./Screens/Services/Services";
 import About from "./Screens/About/About";
 import Blogs from "./Screens/Blogs/Blogs";
 import Contact from "./Screens/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
 
 const App = (props) => {
   return (
@@ -31,6 +32,9 @@ const App = (props) => {
           <Route path="/Blogs" element={<Blogs />} />
           <Route path="/Contact" element={<Contact />} />
         </Routes>
+        <>
+          <Footer />
+        </>
       </BrowserRouter>
     </>
   );

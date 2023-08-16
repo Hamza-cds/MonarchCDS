@@ -1,0 +1,121 @@
+.SideTextStyle {
+  color: black;
+  font-size: 1.5rem;
+  font-family: var(--Heading-font-family);
+  margin-bottom: 0;
+  text-align: center;
+}
+.SideTextStyle2 {
+  color: black;
+  font-size: 2.3rem;
+  font-family: var(--Heading-font-family);
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+.custom-date {
+  border: none; /* Remove the default input border */
+  border-bottom: 1.5px solid #124342; /* Add a bottom border */
+  outline: none; /* Remove the outline when focused */
+  padding: 4px 10px; /* Add some padding to space out the text */
+  font-size: 1.5rem; /* Set the font size */
+  width: 100%; /* Make the input span the full width */
+  box-sizing: border-box; /* Include padding in the width calculation */
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+/* Style the placeholder text */
+.custom-date::placeholder {
+  color: #636363; /* Set a placeholder color */
+}
+
+.Select_Option_Style_Sidebar {
+  font-size: 1.5rem !important;
+  color: #525252;
+  font-family: var(--SubHeading-font-family);
+  cursor: pointer;
+  width: 100%;
+  font-weight: 500;
+  border-bottom: 1.5px solid #124342;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.Select_Option_Style_Sidebar .css-1jqq78o-placeholder {
+  color: #636363;
+}
+
+.Select_Option_Style_Sidebar .css-tj5bde-Svg {
+  fill: #636363;
+}
+.Select_Option_Style_Sidebar .css-1dimb5e-singleValue {
+  color: #636363;
+}
+
+.SidebarInfoTextStyle {
+  color: black;
+  font-size: 1.5rem;
+  font-family: var(--SubHeading-font-family);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.SidebarLabelTextStyle {
+  color: #636363;
+  font-size: 1.5rem;
+  font-family: var(--SubHeading-font-family);
+  margin-bottom: 5px;
+}
+
+.rounded-input {
+  border: 1px solid #ccc; /* Border style */
+  border-radius: 10px; /* Rounded border */
+  padding: 8px 12px; /* Add padding for spacing */
+  font-size: 16px; /* Set font size */
+  width: 100%; /* Make the input span the full width */
+  box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+/* Style the placeholder text */
+.rounded-input::placeholder {
+  color: #636363; /* Set a placeholder color */
+}
+.SidebarInputContainer {
+  margin: 10px 0;
+}
+.SidebarButtonStyle {
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #124342;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+.SidebarInputMainParentWrapper {
+  background-color: white;
+  padding: 35px 10px;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  margin-bottom: 10px;
+}
+.SideTextMainWrapper {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #636363;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.SideArrowStyle {
+  height: 50px;
+  width: 50px;
+}
+.SideTextStyle {
+  height: auto;
+  width: 230px;
+  margin-left: 10px;
+  margin-bottom: 0;
+}

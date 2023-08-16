@@ -1,0 +1,110 @@
+.ChosingMonarchMainContainer {
+  width: 100%;
+  margin-bottom: 100px;
+}
+.FirstChildContainerStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.WhyChoseMonarchHeadTextContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.OurServiceStyle {
+  width: 150px;
+  color: #1e1e1e;
+  font-family: var(--Heading-font-family);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.WhyChoseStyle {
+  width: 450px;
+  flex-shrink: 0;
+  color: #1e1e1e;
+  font-family: var(--Heading-font-family);
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 200%;
+}
+.WhyChoseParagraphStyle {
+  /* height: 7.9375rem; */
+  flex-shrink: 0;
+  color: #1e1e1e;
+  text-align: justify;
+  font-family: Plus Jakarta Sans;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 200%; /* 1.8rem */
+  width: 45%;
+}
+.SecondChildContainerStyle {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80.5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.BoxStyle {
+  width: 32%;
+  background: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 0;
+  border-radius: 10px;
+}
+.iconBGStyle {
+  width: 7.55194rem;
+  height: 7.55194rem;
+  border-radius: 2.5625rem;
+  background: rgba(1, 35, 34, 0.97);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.BoxHeadTextStyle {
+  color: #0e0e0e;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 2.1rem */
+  margin-top: 25px;
+}
+.BoxDescriptionStyle {
+  color: rgba(14, 14, 14, 0.4);
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 180%; /* 1.8rem */
+  margin-top: 4vh;
+  width: 18rem;
+}
+.LearnMoreStyle {
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: linear-gradient(204deg, #e6c058 28.4%, #215aaf 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 5vh;
+}

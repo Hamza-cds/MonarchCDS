@@ -40,15 +40,13 @@ function Rents() {
   const [isBed3, setIsBed3] = useState(false);
   const [isBed4, setIsBed4] = useState(false);
 
-  const [isTypeCheck, setIsTypeCheck] = useState(false);
-  const [isStatusCheck, setIsStatusCheck] = useState(false);
-  const [isLocationCheck, setIsLocationCheck] = useState(false);
-  const [isBedCheck, setIsBedCheck] = useState(false);
-  const [isPriceCheck, setIsPriceCheck] = useState(false);
+  const [isTypeCheck, setIsTypeCheck] = useState(true);
+  const [isStatusCheck, setIsStatusCheck] = useState(true);
+  const [isLocationCheck, setIsLocationCheck] = useState(true);
+  const [isBedCheck, setIsBedCheck] = useState(true);
+  const [isPriceCheck, setIsPriceCheck] = useState(true);
   let [isLike, setIsLike] = useState(0);
   const [activeSlide, setActiveSlide] = useState(0);
-  const navigationPrevRef = React.useRef(null);
-  const navigationNextRef = React.useRef(null);
 
   const options = [
     { value: "option 1", label: "option 1" },

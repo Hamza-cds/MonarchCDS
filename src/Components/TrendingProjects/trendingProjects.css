@@ -1,0 +1,260 @@
+.MainContainerTrending {
+  background: var(--white, #fff);
+}
+.MianHeadingText {
+  width: 674px;
+  color: var(--dark-blue, rgba(1, 35, 34, 0.97));
+  text-align: center;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 30px auto; /* Center vertically and horizontally */
+  font-family: var(--Heading-font-family);
+}
+.ArrayHeadingBlock {
+  overflow: scroll;
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}
+.ArrayHeadingBlock::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.ArrayHeadingBlock::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+}
+.ArrayElementStyle {
+  color: var(--green, #124342);
+  text-align: center;
+  font-family: var(--SubHeading-font-family);
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  cursor: pointer;
+}
+.ArrayElementStyle.selected {
+  border-bottom: 6px solid #124342;
+  padding-bottom: 20px;
+}
+.ArrBottomLine {
+  height: 1px;
+  opacity: 0.5;
+  background: #636363;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -5px;
+}
+.TrendingArrayObjectMainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  /* margin-left: 140px; */
+  padding-left: 12%;
+}
+
+.TrendingProjectArrayObject {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  width: 22%;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: var(--white, #fff);
+  padding: 10px;
+  box-shadow: 0px 4px 20px 0px rgba(21, 32, 70, 0.07);
+  margin: 10px;
+  display: inline-block;
+}
+
+.learn-more-button {
+  cursor: pointer;
+  width: 270px;
+  height: 350px;
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 600;
+  transition: transform 0.3s, box-shadow 0.3s; /* Add transitions for smooth effect */
+  position: relative; /* Added to create a stacking context */
+}
+
+/* Hover effect styles */
+.learn-more-button:hover {
+  transform: scale(1.05); /* Increase size on hover */
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2); /* Add a box shadow on hover */
+}
+
+.ArrayObjectForLearnMore {
+  overflow: hidden;
+  width: 270px;
+  height: 350px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: var(--white, #fff);
+  padding: 10px;
+  box-shadow: 0px 4px 20px 0px rgba(21, 32, 70, 0.07);
+  margin: 10px;
+  display: inline-block;
+  position: relative; /* Added to create a stacking context */
+}
+.array-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+}
+.array-container.scrollable {
+  overflow-x: auto;
+}
+.array-container::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+.array-container::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.array-container::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+}
+
+.inner-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.show-more-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#showMoreBtn {
+  background-color: #124342;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.ObjectImageStyle {
+  width: 100%;
+  height: 304px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: lightgray 50% / cover no-repeat;
+}
+.ContainerStyleToRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.BoxStyle1 {
+  width: 38%;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 0.5px solid rgba(99, 99, 99, 0.5);
+  background: rgba(255, 255, 255, 0);
+  padding: 2px;
+  display: flex;
+  flex-direction: row;
+}
+.BoxStyle2 {
+  display: flex;
+  flex-direction: row;
+  width: 52%;
+  border-radius: 10px;
+  border: 0.5px solid rgba(99, 99, 99, 0.5);
+  background: rgba(255, 255, 255, 0);
+  padding: 5px;
+}
+.textColumn {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  /* background-color: red; */
+  margin-left: 3px;
+  width: 75%;
+}
+.durationStringStyle {
+  color: var(--black, #222);
+  font-family: Inter;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 7px;
+}
+.durationDateStyle {
+  width: 80.81px;
+  height: 26.698px;
+  color: rgba(1, 35, 34, 0.97);
+  font-family: var(--SubHeading-font-family);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.paymentAmountStyle {
+  width: 129.81px;
+  height: 26.698px;
+  flex-shrink: 0;
+  color: var(--dark-blue, #152046);
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.addressStyleContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+.addressTextStyle {
+  color: #0d0d0d;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 216.667% */
+  margin-left: 15px;
+}
+.InBoxIcon1Style {
+  width: 70%;
+  height: 65%;
+  margin: auto;
+}
+.InBoxIcon2Style {
+  width: 90%;
+  height: 90%;
+  margin: auto;
+}
+.SeeMoreStyle {
+  color: var(--green, #124342);
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1; /* Set initial opacity to 0 */
+  transition: opacity 0.3s; /* Add a transition for smooth fade-in */
+}
+.learn-more-button:hover .SeeMoreStyle {
+  opacity: 2; /* Change opacity on hover */
+}

@@ -10,7 +10,8 @@
   flex-direction: column;
   width: 18vw;
   background-color: #fafafa;
-  padding: 15px;
+  padding: 20px 15px;
+  margin-bottom: 15px;
 }
 .RentDropdownContainer {
   display: flex;
@@ -69,7 +70,7 @@
 .RentContentMainContainer {
   width: 100%;
   padding: 10px 10px;
-  background-color: red;
+  margin-left: 30px;
 }
 .RentDropDownMainContainerWrapper {
   display: flex;

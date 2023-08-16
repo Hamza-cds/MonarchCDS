@@ -1,8 +1,17 @@
 import React from "react";
 import "./services.css";
+import ColabratePartner from "../../Components/CollaborativePartner/ColabratePartner";
+import Blogs from "../../Components/Blogs/Blogs";
+import MonarchChosing from "../../Components/ChoosingMonarch/MonarchChosing";
 
 function Services() {
-  return <div></div>;
+  return (
+    <section className="ServicesMainParentContainer">
+      <ColabratePartner />
+      <Blogs />
+      <MonarchChosing />
+    </section>
+  );
 }
 
 export default Services;

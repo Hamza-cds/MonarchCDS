@@ -43,3 +43,36 @@ export { default as BlogImage2 } from "./BlogImage2.png";
 export { default as BlogIcon1 } from "./BlogIcon1.svg";
 export { default as BlogIcon2 } from "./BlogIcon2.svg";
 export { default as PlusIcon } from "./PlusIcon.svg";
+
+export { default as Logo } from "./Logo.svg";
+export { default as PinLoc } from "./pinLoc.svg";
+export { default as Mail } from "./mail.svg";
+export { default as phone } from "./phone.svg";
+export { default as facebook } from "./facebook.svg";
+export { default as youtube } from "./Youtube.svg";
+export { default as linkedin } from "./Linkedin.svg";
+export { default as twitter } from "./twitter.svg";
+export { default as insta } from "./Instagram.svg";
+export { default as arrow } from "./rightArrow.svg";
+export { default as home } from "./house.svg";
+export { default as rent } from "./rent.svg";
+export { default as sell } from "./sell.svg";
+export { default as plus } from "./Plus.svg";
+export { default as image1 } from "./Image1.png";
+export { default as image2 } from "./Image2.png";
+export { default as image3 } from "./Image3.png";
+export { default as image4 } from "./Image4.png";
+export { default as infinity } from "./timerIcon.svg";
+export { default as doller } from "./dollerIcon.svg";
+
+export { default as pic1 } from "../Assets/pic1.png";
+export { default as pic2 } from "../Assets/pic2.png";
+export { default as pic3 } from "../Assets/pic3.png";
+export { default as pic4 } from "../Assets/pic4.png";
+export { default as Tech } from "../Assets/Tech.svg";
+export { default as result } from "../Assets/results.svg";
+export { default as value } from "../Assets/values.svg";
+
+export { default as SidebarImage } from "./SidebarImage.png";
+export { default as SideArrow } from "./SideArrow.svg";
+export { default as SideText } from "./SideText.svg";
