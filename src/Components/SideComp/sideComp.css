@@ -52,6 +52,9 @@
 .Select_Option_Style_Sidebar .css-1dimb5e-singleValue {
   color: #636363;
 }
+.MainSideParentContainer {
+  max-width: 18vw;
+}
 
 .SidebarInfoTextStyle {
   color: black;

@@ -5,10 +5,14 @@ import ColabratePartner from "../../Components/CollaborativePartner/ColabratePar
 import BlogsNews from "../../Components/BlogsNews/BlogsNews";
 import MonarchChosing from "../../Components/ChoosingMonarch/MonarchChosing";
 import Properties from "../../Components/PropertiesComponant/Properties";
+import Investment from "../../Components/InvestmentComponant/Investment";
+import DiscoverProperty from "../../Components/DiscoverPropertyComponant/DiscoverProperty";
 
 function Investments() {
   return (
     <section className="MainInvestmentParentContainer">
+      <Investment />
+      <DiscoverProperty />
       <Interested />
       <ColabratePartner />
       <BlogsNews />

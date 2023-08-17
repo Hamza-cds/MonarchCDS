@@ -1,0 +1,138 @@
+.ParantContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+}
+.NonGridViewMainContainer {
+  display: flex;
+  margin: 5px 0;
+  background-color: gray;
+  border-radius: 0.9375rem;
+  background: var(--white, #fff);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 25px;
+  width: 100%;
+}
+.GridOtherContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.GridImageStyle {
+  height: 180px;
+  width: 40%;
+}
+.ChildBoxOneStyle {
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.ChildBoxTwoStyle {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.ChildBoxThreeStyle {
+  background-color: orange;
+}
+.NonGridHeadingText {
+  text-align: left;
+  color: var(--dark-blue, rgba(1, 35, 34, 0.97));
+  font-family: var(--Heading-font-family);
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.375rem;
+}
+.NonGridAddressContainerStyle {
+  display: flex;
+  margin-top: 0.5vh;
+}
+.NonGridAddressTextStyle {
+  color: var(--grey, #636363);
+  font-family: var(--SubHeading-font-family);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.6;
+  margin-left: 0.5vw;
+}
+.PropertyDetailContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.garageAreaContainer {
+  margin-left: 80px;
+}
+.GridRightButton {
+  background-color: #124342;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+.BedContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.BathConatiner {
+}
+.PropertiesTextStyle {
+  color: var(--grey, #636363);
+  font-family: var(--SubHeading-font-family);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem;
+  margin-left: 10px;
+}
+.heartStyle {
+  height: 20px;
+  width: 20px;
+  margin-top: -30px;
+}
+
+.BoxTwoChildBottomContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.TextBlockStyle {
+  border-radius: 5px;
+  border: 0.5px solid rgba(99, 99, 99, 0.5);
+  background: rgba(255, 255, 255, 0);
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 40px;
+}
+.svgButtonStyle {
+  margin-left: 1vw;
+}
+.forRantStyle {
+  color: var(--black, #222);
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+}
+.monthAndMoneyStyle {
+  text-align: left;
+  color: var(--black, #222);
+  font-family: var(--SubHeading-font-family);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

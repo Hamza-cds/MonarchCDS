@@ -10,3 +10,8 @@
   font-size: 3.5rem;
   font-family: var(--Heading-font-family);
 }
+.BuyContentMainContainer {
+  width: 100%;
+  padding: 10px 10px;
+  margin-left: 30px;
+}

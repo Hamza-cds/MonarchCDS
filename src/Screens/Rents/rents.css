@@ -8,10 +8,11 @@
 .RentSideBarContainer {
   display: flex;
   flex-direction: column;
-  width: 18vw;
+  min-width: 18vw;
   background-color: #fafafa;
   padding: 20px 15px;
   margin-bottom: 15px;
+  height: max-content;
 }
 .RentDropdownContainer {
   display: flex;
@@ -56,10 +57,11 @@
   border: none;
   outline: none;
   background-color: #fafafa;
+  font-size: 8px;
 }
 .TextInputContainerRentDropDown {
   border: 1px solid #d4d4d4;
-  padding: 5px;
+  padding: 10px;
   border-radius: 5px;
   padding-left: 5px;
 }
@@ -68,7 +70,7 @@
   width: 15px;
 }
 .RentContentMainContainer {
-  width: 100%;
+  /* width: 80%; */
   padding: 10px 10px;
   margin-left: 30px;
 }
@@ -122,6 +124,7 @@
 .RentSortMainContainer {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .swiperMainContentContainer_Rent {
@@ -132,8 +135,8 @@
   margin: 10px 0;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-  width: 30%;
-  margin-right: 15px;
+  width: 32%;
+  margin-right: 10px;
 }
 .swiperMainContentContainer_Rent:hover {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,

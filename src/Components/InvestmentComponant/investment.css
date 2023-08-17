@@ -1,0 +1,34 @@
+.InvestmentCompMainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85.5%;
+  height: 75vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.BigPictureStyle {
+  height: 75vh;
+  width: auto;
+  max-width: 65%;
+}
+
+.smallImageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.smallImageStyle {
+  height: 36.5vh;
+  width: auto;
+  max-width: 100%;
+}
+.smallImageStyle1 {
+  height: 36.5vh;
+  width: auto;
+  max-width: 100%;
+  margin-top: 10px;
+}
