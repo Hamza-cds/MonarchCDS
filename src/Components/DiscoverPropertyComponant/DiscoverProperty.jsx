@@ -92,7 +92,7 @@ export default function DiscoverProperty() {
                 <img
                   src={user.image}
                   alt="Image"
-                  className="SwiperImageStyle"
+                  className="SwiperImageStyle_Disc"
                 />
                 <div
                   className="wiperHeartContainer"
@@ -105,6 +105,7 @@ export default function DiscoverProperty() {
                     size={20}
                   />
                 </div>
+                <div className="SwiperMainButtonContainer">For Rent</div>
               </div>
               <div className="SwiperContentContainer">
                 <div className="SwiperHeadingContainer">

@@ -83,7 +83,7 @@ height: 779px; */
   border-radius: 7px;
   border: 1px solid var(--green, #124342);
   background: rgba(25, 207, 121, 0);
-  margin-bottom: 40px;
+  margin-bottom: 130px;
   transition: all 0.5s ease-in-out;
   cursor: pointer;
 }

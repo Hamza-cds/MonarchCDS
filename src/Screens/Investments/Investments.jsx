@@ -7,6 +7,7 @@ import MonarchChosing from "../../Components/ChoosingMonarch/MonarchChosing";
 import Properties from "../../Components/PropertiesComponant/Properties";
 import Investment from "../../Components/InvestmentComponant/Investment";
 import DiscoverProperty from "../../Components/DiscoverPropertyComponant/DiscoverProperty";
+import OurServices from "../../Components/OurServicesComponant/OurServices";
 
 function Investments() {
   return (
@@ -14,6 +15,7 @@ function Investments() {
       <Investment />
       <DiscoverProperty />
       <Interested />
+      <OurServices />
       <ColabratePartner />
       <BlogsNews />
       <MonarchChosing />

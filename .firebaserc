@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "monarch-international",
+    "build": "monarch-international"
+  },
+  "targets": {},
+  "etags": {}
+}

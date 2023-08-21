@@ -58,7 +58,11 @@ function SideComp() {
       <img src={SidebarImage} alt="Image" className="SidebarImage" />
       <div className="SideTextMainWrapper">
         <img src={SideArrow} alt="Image" className="SideArrowStyle" />
-        <img src={SideText} alt="Image" className="SideTextStyle" />
+        {/* <img src={SideText} alt="Image" className="SideTextStyle" /> */}
+        <div className="SideTextWrapperStyle">
+          <p className="SideDownLoadTextStyle">Download & Read</p>
+          <p className="SideProfileTextStyle">Our Company Profile</p>
+        </div>
       </div>
     </section>
   );

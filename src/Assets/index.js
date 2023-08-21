@@ -96,3 +96,7 @@ export { default as discover5 } from "../Assets/discover5.png";
 export { default as discover6 } from "../Assets/discover6.png";
 export { default as discover7 } from "../Assets/discover7.png";
 export { default as RightWhiteArrow } from "./RightWhiteArrow.svg";
+
+export { default as doted } from "./Doted.svg";
+export { default as ramada } from "./Ramda.png";
+export { default as monarch } from "./Monarch.png";
