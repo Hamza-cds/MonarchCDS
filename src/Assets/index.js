@@ -100,3 +100,11 @@ export { default as RightWhiteArrow } from "./RightWhiteArrow.svg";
 export { default as doted } from "./Doted.svg";
 export { default as ramada } from "./Ramda.png";
 export { default as monarch } from "./Monarch.png";
+export { default as SearchingIcon } from "./SearchingIcon.svg";
+export { default as FilterIcon } from "./FilterIcon.svg";
+
+export { default as OPOne } from "./OurProjectPicOne.png";
+export { default as OPTwo } from "./OurProjectPicTwo.png";
+export { default as OPLoc } from "./OPLoc.svg";
+export { default as OPCornerImage } from "./OPCornerImage.svg";
+export { default as OPBottomLoc } from "./OPBottomLoc.svg";

@@ -1,0 +1,211 @@
+.LocationMainContainer {
+  padding-top: 7%;
+  width: 85.5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.OurLocationTextStyle {
+  font-size: 4rem;
+  font-weight: 500;
+  color: black;
+  font-family: var(--Heading-font-family);
+}
+.LocationDropdownWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.RangeSliderWrapper {
+  min-width: 150px;
+  margin: 0 10px;
+}
+
+.RangeSliderWrapper .rc-slider-rail {
+  background-color: #dfdfdf;
+}
+
+.RangeSliderWrapper .rc-slider-dot {
+  background-color: yellow;
+}
+
+.RangeSliderWrapper .rc-slider-handle {
+  border: 1px solid yellow;
+  background-color: yellow;
+}
+.RangeSliderWrapper .rc-slider-track {
+  background-color: black; /* Change the selected range color to black */
+}
+
+.locationRangeMainWrapper {
+  display: flex;
+  align-items: center;
+}
+.MinMaxWrapper {
+  display: flex;
+  align-items: center;
+}
+.RangeTextStyle {
+  margin-bottom: 0;
+  color: black;
+  font-size: 1.3rem;
+  font-family: var(--SubHeading-font-family);
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.RangeValueWrapper {
+  margin-bottom: 0;
+  padding: 10px 20px;
+  border: 1px solid #afafaf;
+  color: #afafaf;
+  font-size: 1.3rem;
+  font-family: var(--SubHeading-font-family);
+  border-radius: 5px;
+}
+
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 1px solid #a6a6a6;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+.search-input {
+  font-size: 1.4rem;
+  border: none;
+  padding: 10px;
+  width: 200px;
+  outline: none; /* Remove the default outline */
+}
+.search-input::placeholder {
+  color: #a6a6a6; /* Replace with the desired color */
+}
+
+.search-icon {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-left: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Adjust the icon color */
+.search-icon svg {
+  color: #333;
+}
+.MainParentDropdownContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.LocationInputMainWrapper {
+  display: flex;
+  /* align-items: center; */
+}
+.LocationFilterTextStyle {
+  margin-bottom: 0;
+  color: white;
+  font-size: 1.5rem;
+  font-family: var(--SubHeading-font-family);
+  margin-right: 10px;
+}
+.FilterButtonLocation {
+  background-color: #082928;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.MainLocationMapContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.MainLocationContentWrapper {
+  width: 55%;
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 130vh;
+  overflow: auto;
+}
+
+.MainLocationContentWrapper::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+.MainLocationContentWrapper::-webkit-scrollbar-track {
+  background-color: #eeeeee;
+}
+.MainLocationContentWrapper::-webkit-scrollbar-thumb {
+  background: linear-gradient(#d9d9d9, #d9d9d9);
+  border-radius: 50px;
+}
+.MainLocationMainContainer {
+  width: 44%;
+}
+
+.Iframe_Container {
+  position: relative;
+  min-height: 130vh;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.swiperMainContentContainer_Location {
+  background-color: white;
+  padding: 10px 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 10px 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  width: 48%;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.swiperMainContentContainer_Location:hover {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.swiperMainContentContainer_Location_Bottom {
+  background-color: white;
+  padding: 10px 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 10px 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  min-width: 25%;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.swiperMainContentContainer_Location_Bottom:hover {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.LocationContentBottomContainer {
+  display: flex;
+  width: 100%;
+  overflow: auto;
+  margin-bottom: 20px;
+}
+.LocationContentBottomContainer::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+.LocationContentBottomContainer::-webkit-scrollbar-track {
+  background-color: #eeeeee;
+}
+.LocationContentBottomContainer::-webkit-scrollbar-thumb {
+  background: linear-gradient(#d9d9d9, #d9d9d9);
+  border-radius: 50px;
+}

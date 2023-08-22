@@ -1,0 +1,172 @@
+.OurProjectMainContainer {
+  position: relative;
+  padding: 10px;
+}
+.HeadinStyleOP {
+  display: flex;
+  color: black;
+  font-family: var(--Heading-font-family);
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 125%; /* 3.51563rem */
+  margin-top: 30px;
+}
+.OurProjectSwiperMainContainer {
+  display: flex;
+  /* background-color: pink; */
+}
+.SubContainerOneStyle {
+  width: 35%;
+  border-radius: 1rem 0rem 0rem 1rem;
+  background: #124342;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+.SubContainerTwoStyle {
+  position: relative;
+  width: 65%;
+}
+.mySwiper {
+  width: auto;
+  position: relative;
+}
+.ImageOneStyleOP {
+  height: 100%;
+  width: 100%;
+}
+.custom-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  padding: 5px;
+}
+.OPHeadingStyle {
+  color: var(--white, #fff);
+  font-family: Metropolis;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 130%;
+  text-align: left;
+}
+.OPDescriptionStyle {
+  color: var(--white, #fff);
+  font-family: Metropolis;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  text-align: left;
+  margin-top: 15px;
+}
+.OPButtonStyle {
+  display: flex;
+  width: 20%;
+  padding: 8px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.85763rem;
+  flex-shrink: 0;
+  border-radius: 3.7735rem;
+  background: #e0b109;
+  color: #f5f5f5;
+  margin-top: 18px;
+  cursor: pointer;
+}
+.OPLocationContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 43%;
+  margin-top: 15px;
+}
+.OPLocationTextStyle {
+  color: var(--white, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Metropolis;
+  font-size: 1.20069rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 1.56088rem */
+}
+.OPCornerImageStyle {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+.OurProjectBottomImageMainContainer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.OPBottomHeadingStyle {
+  color: var(--white, #fff);
+  font-family: Metropolis;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 130%;
+  text-align: left;
+}
+.BottomSubContainerOneStyle {
+  width: 35%;
+  border-radius: 0rem 1rem 1rem 0rem;
+  background: #e0b109;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding: auto;
+}
+.OPBottomButtonStyle {
+  display: flex;
+  width: 20%;
+  padding: 8px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.85763rem;
+  flex-shrink: 0;
+  border-radius: 3.7735rem;
+  background: rgba(1, 35, 34, 0.97);
+  color: #f5f5f5;
+  margin-top: 18px;
+  cursor: pointer;
+}
+.OPBottomCornerImageStyle {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+.OPBottomHeadingStyle {
+  color: rgba(1, 35, 34, 0.97);
+  font-family: Metropolis;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 130%;
+  text-align: left;
+}
+.OPBottomDescriptionStyle {
+  color: rgba(1, 35, 34, 0.97);
+  font-family: Metropolis;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.OPBottomLocationTextStyle {
+  color: rgba(1, 35, 34, 0.97);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Metropolis;
+  font-size: 1.20069rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 1.56088rem */
+}

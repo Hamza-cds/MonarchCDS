@@ -13,6 +13,11 @@ import About from "./Screens/About/About";
 import Blogs from "./Screens/Blogs/Blogs";
 import Contact from "./Screens/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
+import OurProjects from "./Screens/OurProjects/OurProjects";
+import Location from "./Screens/Location/Location";
+import BlogsDetail from "./Screens/BlogsDetail/BlogsDetail";
+import ProperDetail from "./Screens/ProperDetail/ProperDetail";
+import ConstructionDetail from "./Screens/ConstructionDetail/ConstructionDetail";
 
 const App = (props) => {
   return (
@@ -25,7 +30,12 @@ const App = (props) => {
           <Route path="/" element={<Home />} />
           <Route path="/Rents" element={<Rents />} />
           <Route path="/Buy" element={<Buy />} />
-          <Route path="/Commercial" element={<Commercial />} />
+          <Route path="/OurProjects" element={<OurProjects />} />
+          <Route path="/ProperDetail" element={<ProperDetail />} />
+          <Route path="/Location" element={<Location />} />
+          <Route path="/ConstructionDetail" element={<ConstructionDetail />} />
+          <Route path="/BlogsDetail" element={<BlogsDetail />} />
+
           <Route path="/Investments" element={<Investments />} />
           <Route path="/Services" element={<Services />} />
           <Route path="/About" element={<About />} />

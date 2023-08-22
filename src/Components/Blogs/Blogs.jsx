@@ -1,6 +1,6 @@
 import React from "react";
 import "./blogs.css";
-import { BlogIcon1, BlogImage1, BlogImage2 } from "../../Assets";
+import { BlogIcon1, BlogImage1, BlogImage2, MonarchLogo } from "../../Assets";
 
 function Blogs() {
   const Data = [
@@ -21,29 +21,35 @@ function Blogs() {
     },
   ];
   return (
-    <div className="BlogsMainContainer">
-      <div className="BlogsMainContentContainer">
-        {Data.map((item) => {
-          return (
-            <div className="ContentContainer">
-              <img src={item.image} alt="Image" className="BlogImageStyle" />
-              <p className="BlogTextStyle">{item.heading}</p>
-              <div className="BlogsIconMainContainer">
-                <div className="BlogIconContainer">
-                  <img src={BlogIcon1} alt="Icon" />
-                  <p className="BlogTextInfoStyle">Dreamwell Team</p>
+    <>
+      <div className="BlogsMainContainer">
+        <div className="BlogsTextWrapper">
+          <p className="BlogsTextStyleTopWrapper">Blog & News from</p>
+          <img src={MonarchLogo} />
+        </div>
+        <div className="BlogsMainContentContainer">
+          {Data.map((item) => {
+            return (
+              <div className="ContentContainer">
+                <img src={item.image} alt="Image" className="BlogImageStyle" />
+                <p className="BlogTextStyle">{item.heading}</p>
+                <div className="BlogsIconMainContainer">
+                  <div className="BlogIconContainer">
+                    <img src={BlogIcon1} alt="Icon" />
+                    <p className="BlogTextInfoStyle">Dreamwell Team</p>
+                  </div>
+                  <div className="BlogIconContainer">
+                    <img src={BlogIcon1} alt="Icon" />
+                    <p className="BlogTextInfoStyle"> 13 March</p>
+                  </div>
                 </div>
-                <div className="BlogIconContainer">
-                  <img src={BlogIcon1} alt="Icon" />
-                  <p className="BlogTextInfoStyle"> 13 March</p>
-                </div>
+                <div className="BlogReadMoreTextStyle">Read More</div>
               </div>
-              <div className="BlogReadMoreTextStyle">Read More</div>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 

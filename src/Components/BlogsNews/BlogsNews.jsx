@@ -3,10 +3,10 @@ import "./blogsNews.css";
 import LetsFind from "../LetsFind/LetsFind";
 import Blogs from "../Blogs/Blogs";
 
-function BlogsNews() {
+function BlogsNews({ isFind = true }) {
   return (
     <>
-      <LetsFind />
+      {isFind ? <LetsFind /> : null}
       <Blogs />
     </>
   );

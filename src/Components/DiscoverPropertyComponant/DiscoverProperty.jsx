@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./discoverProperty.css";
+import { useNavigate } from "react-router-dom";
 import {
   BathIcon,
   BedIcon,
@@ -21,6 +22,8 @@ import {
 import { AiOutlineHeart } from "react-icons/ai";
 
 export default function DiscoverProperty() {
+  const navigate = useNavigate();
+
   const [showAllItems, setShowAllItems] = useState(false);
   let [isLike, setIsLike] = useState(0);
 
@@ -67,7 +70,13 @@ export default function DiscoverProperty() {
       <div className="DataMappingConatiner">
         {itemsToShow.map((item) => {
           return (
-            <div className="ObjectContainerStyle" key={item.id}>
+            <div
+              className="ObjectContainerStyle"
+              key={item.id}
+              onClick={() => {
+                navigate("/Location");
+              }}
+            >
               <img src={item.image} alt="img" />
               <div className="ObjectTextStyle">{item.name}</div>
             </div>

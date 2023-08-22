@@ -113,10 +113,24 @@
   margin-bottom: 10px;
   justify-content: center;
 }
-.Select_Option_Style {
-  font-size: 1.5rem !important;
+
+.Select_Option_Style_Navbar {
+  font-size: 1.3rem !important;
   color: black;
   font-family: var(--SubHeading-font-family);
+  cursor: pointer;
+  min-width: 100px;
+}
+
+.Select_Option_Style_Navbar .css-1jqq78o-placeholder {
+  color: black;
+}
+
+.Select_Option_Style_Navbar .css-tj5bde-Svg {
+  fill: #636363;
+}
+.Select_Option_Style_Navbar .css-1dimb5e-singleValue {
+  color: black;
 }
 
 .NavabrInquiryButton {

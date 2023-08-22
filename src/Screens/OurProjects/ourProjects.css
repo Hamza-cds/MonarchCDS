@@ -1,0 +1,38 @@
+.OurPojectsMainContainer {
+  padding-top: 7%;
+  width: 85.5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mainHeaderBgContainer_OurProjects {
+  min-height: 65vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../Assets/ProjectBg.png");
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  position: relative;
+}
+
+.OurLocationTextStyle_OutProjects {
+  font-size: 4rem;
+  font-weight: 500;
+  color: black;
+  margin-top: 30px;
+  font-family: var(--Heading-font-family);
+}
+.MainOurProjectContainer {
+  display: flex;
+}
+.ContentMainWrapperOurProjects {
+  width: 75%;
+}
+.SidebarMainContentContentContainer {
+  width: 25%;
+}
+.OurLetsFindContainer {
+  margin-bottom: 100px;
+}

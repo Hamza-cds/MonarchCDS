@@ -26,6 +26,7 @@
 .ObjectContainerStyle {
   width: 25%;
   position: relative;
+  cursor: pointer;
 }
 
 .ObjectContainerStyle img {

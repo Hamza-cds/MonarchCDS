@@ -3,7 +3,8 @@ import "./appNavbar.css";
 import { NavLink, useHistory, Navigate, useNavigate } from "react-router-dom";
 import { FiAlignRight, FiX } from "react-icons/fi";
 import Fade from "react-reveal/Fade";
-import { BurgerIcon, MonarchLogo, PhoneIcon } from "../../Assets";
+import { BurgerIcon, MonarchLogo, PhoneIcon, value } from "../../Assets";
+import Select from "react-select";
 
 function Navbar(props) {
   const navigate = useNavigate();
@@ -26,7 +27,11 @@ function Navbar(props) {
     var elem = document.getElementById(scroll);
     elem.scrollIntoView({ behavior: "smooth" });
   }
-  // console.log("isScrolling", isScrolling);
+
+  const options = [
+    { id: 1, value: "Our Projects", label: "Our Projects" },
+    { id: 2, value: "option 2", label: "option 2" },
+  ];
 
   return (
     <Fade top>
@@ -76,18 +81,33 @@ function Navbar(props) {
           >
             Buy
           </NavLink>
-          <NavLink
-            className={"Link_Style"}
-            to="/Commercial"
-            style={({ isActive }) => {
-              return {
-                color: isActive ? "#124342" : "black",
-                fontWeight: isActive ? "bold" : "400",
-              };
+          <Select
+            placeholder={"Commerical"}
+            options={options}
+            className="Select_Option_Style_Navbar"
+            classNamePrefix="Select"
+            onChange={(value) => {
+              if (value.id == 1) {
+                navigate("/OurProjects");
+              }
+              console.log("value", value);
             }}
-          >
-            Commercial
-          </NavLink>
+            components={{
+              IndicatorSeparator: () => null,
+            }}
+            isSearchable={false}
+            styles={{
+              control: (baseStyles, state) => ({
+                ...baseStyles,
+                borderColor: state.isFocused ? "white" : null,
+                borderRadius: "5px",
+                border: state.isFocused ? 0 : 0,
+                outline: state.isFocused ? "none" : "none",
+                boxShadow: "none",
+                cursor: "pointer",
+              }),
+            }}
+          />
           <NavLink
             className={"Link_Style"}
             to="/Investments"
