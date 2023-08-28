@@ -12,7 +12,7 @@ function SideComp() {
   return (
     <section className="MainSideParentContainer">
       <div>
-        <p className="SideTextStyle">Schedule a Visit</p>
+        <p className="SideTextStyleVisit">Schedule a Visit</p>
         <p className="SideTextStyle2">For More Information</p>
       </div>
       <div className="SidebarInputMainParentWrapper">

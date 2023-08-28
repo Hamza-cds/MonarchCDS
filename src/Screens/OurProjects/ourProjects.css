@@ -26,13 +26,112 @@
 }
 .MainOurProjectContainer {
   display: flex;
+  justify-content: space-between;
 }
 .ContentMainWrapperOurProjects {
-  width: 75%;
+  width: 72%;
 }
 .SidebarMainContentContentContainer {
-  width: 25%;
+  width: 26%;
 }
 .OurLetsFindContainer {
   margin-bottom: 100px;
+}
+
+.CustomerSupportTextStyle {
+  font-size: 2rem;
+  color: black;
+  font-family: var(--Heading-font-family);
+  font-weight: bold;
+}
+
+.SocialWrapperStyle {
+  display: flex;
+  align-items: center;
+}
+.SupportImageStyle {
+  margin-left: 5px;
+}
+.SideMoreInfoWrapper {
+  margin-top: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.SideTextStyleVisit {
+  color: black;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.SidebarSubmitButton {
+  background-color: #124342;
+  padding: 8px;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+.custom-date_Side {
+  border: none; /* Remove the default input border */
+  border: 1px solid #c2c2c2;
+  outline: none; /* Remove the outline when focused */
+  padding: 4px 10px; /* Add some padding to space out the text */
+  font-size: 1.5rem; /* Set the font size */
+  width: 100%; /* Make the input span the full width */
+  box-sizing: border-box; /* Include padding in the width calculation */
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+/* Style the placeholder text */
+.custom-date_Side::placeholder {
+  color: #636363; /* Set a placeholder color */
+}
+
+.Select_Option_Style_Sidebar_Pro {
+  font-size: 1.5rem !important;
+  color: #525252;
+  font-family: var(--SubHeading-font-family);
+  cursor: pointer;
+  width: 100%;
+  font-weight: 500;
+  border: 1.5px solid #c2c2c2;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.Select_Option_Style_Sidebar_Pro .css-1jqq78o-placeholder {
+  color: #636363;
+}
+
+.Select_Option_Style_Sidebar_Pro .css-tj5bde-Svg {
+  fill: #636363;
+}
+.Select_Option_Style_Sidebar_Pro .css-1dimb5e-singleValue {
+  color: #636363;
+}
+.SidebarImage_Pro {
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+.rounded-input_Pro {
+  border: 1px solid #ccc; /* Border style */
+  border-radius: 5px; /* Rounded border */
+  padding: 8px 12px; /* Add padding for spacing */
+  font-size: 16px; /* Set font size */
+  width: 100%; /* Make the input span the full width */
+  box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+/* Style the placeholder text */
+.rounded-input_Pro::placeholder {
+  color: #636363; /* Set a placeholder color */
 }

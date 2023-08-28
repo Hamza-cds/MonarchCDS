@@ -108,3 +108,11 @@ export { default as OPTwo } from "./OurProjectPicTwo.png";
 export { default as OPLoc } from "./OPLoc.svg";
 export { default as OPCornerImage } from "./OPCornerImage.svg";
 export { default as OPBottomLoc } from "./OPBottomLoc.svg";
+
+export { default as SideLadyImage } from "./SideLadyImage.png";
+export { default as LinkedInSupport } from "./LinkedInSupport.svg";
+export { default as WhatsAppCallSupport } from "./WhatsAppCallSupport.svg";
+export { default as WhatsAppSupport } from "./WhatsAppSupport.svg";
+export { default as FaceBookSupport } from "./FaceBookSupport.svg";
+export { default as BlogsDemoImages } from "./BlogsDemoImages.png";
+export { default as BlogsDemoImages2 } from "./BlogsDemoImages2.png";

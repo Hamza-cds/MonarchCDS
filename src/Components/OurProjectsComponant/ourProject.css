@@ -14,7 +14,14 @@
 }
 .OurProjectSwiperMainContainer {
   display: flex;
+  height: 300px;
   /* background-color: pink; */
+}
+.OurProjectBottomImageMainContainer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  height: 300px;
 }
 .SubContainerOneStyle {
   width: 35%;
@@ -98,11 +105,7 @@
   top: 20px;
   right: 10px;
 }
-.OurProjectBottomImageMainContainer {
-  margin-top: 50px;
-  display: flex;
-  flex-direction: row-reverse;
-}
+
 .OPBottomHeadingStyle {
   color: var(--white, #fff);
   font-family: Metropolis;
