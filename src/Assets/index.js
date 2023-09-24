@@ -116,3 +116,50 @@ export { default as WhatsAppSupport } from "./WhatsAppSupport.svg";
 export { default as FaceBookSupport } from "./FaceBookSupport.svg";
 export { default as BlogsDemoImages } from "./BlogsDemoImages.png";
 export { default as BlogsDemoImages2 } from "./BlogsDemoImages2.png";
+export { default as BlogsDetailImage } from "./BlogsDetailImage.png";
+
+export { default as BlogsDetailImage1 } from "./BlogsDetailImage1.png";
+export { default as BlogsDetailImage2 } from "./BlogsDetailImage2.png";
+export { default as BlogsDetailImage3 } from "./BlogsDetailImage3.png";
+export { default as BlogsDeatialImage4 } from "./BlogsDeatialImage4.png";
+
+export { default as BlogsFacebook } from "./BlogsFacebook.svg";
+export { default as BlogsLinkedIn } from "./BlogsLinkedIn.svg";
+export { default as BlogsPinterest } from "./BlogsPinterest.svg";
+export { default as BlogsTwitter } from "./BlogsTwitter.svg";
+
+export { default as PropertyIcon1 } from "./PropertyIcon1.png";
+export { default as PropertyIcon2 } from "./PropertyIcon2.svg";
+export { default as PropertyIcon3 } from "./PropertyIcon3.svg";
+export { default as PropertyIcon4 } from "./PropertyIcon4.svg";
+export { default as PropertyLocationIcon } from "./PropertyLocationIcon.svg";
+export { default as ConstructionButton } from "./ConstructionButton.svg";
+export { default as Image360 } from "./Image360.svg";
+
+export { default as ProperGarageIcon } from "./ProperGarageIcon.svg";
+export { default as PropertyBathIcon } from "./PropertyBathIcon.svg";
+export { default as PropertyBedIcon } from "./PropertyBedIcon.svg";
+export { default as PropertySquareIcon } from "./PropertySquareIcon.svg";
+export { default as PropertySaleIcon } from "./PropertySaleIcon.svg";
+export { default as WriteWhteArrow } from "./WriteWhteArrow.svg";
+
+export { default as ourMissionPic } from "./MissonGroup.png";
+export { default as ourVisionPic } from "./OurVisionImage.png";
+export { default as contactUsImage } from "./ContactUsImage.png";
+export { default as greenLoc } from "./greenLoc.svg";
+export { default as greenMail } from "./greenMail.svg";
+export { default as greenCall } from "./greenCall.svg";
+export { default as greenPhone } from "./greenMobile.svg";
+export { default as careerImage } from "./CareerImage.png";
+export { default as blackPin } from "./blackPin.svg";
+export { default as downloadIcon } from "./DownloadIcon.svg";
+export { default as ac } from "./acGreen.svg";
+export { default as heater } from "./heaterGreen.svg";
+export { default as lawn } from "./lawnGreen.svg";
+export { default as laundry } from "./loundryGreen.svg";
+export { default as Swimming } from "./swimmingGreen.svg";
+export { default as dining } from "./diningGreen.svg";
+
+export { default as walkScoreIcon1 } from "../Assets/walkScoreIcon1.svg";
+export { default as walkScoreIcon2 } from "../Assets/walkScoreIcon2.svg";
+export { default as walkScoreIcon3 } from "../Assets/walkScoreIcon3.svg";

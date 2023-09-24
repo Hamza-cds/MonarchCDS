@@ -1,0 +1,174 @@
+.ConatactUsMainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 85.5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+.ContactUsImageStyle {
+  height: 65vh;
+  width: 100%;
+}
+.contactUsFormMainContainer {
+  border-radius: 1.5625rem;
+  background: #ededed;
+  width: 75%;
+  margin-top: -80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 30px;
+}
+.FormMainHeadingStyle {
+  color: var(--black, #333);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: var(--Heading-font-family);
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.39338rem;
+  margin-top: 20px;
+}
+.InputFieldContainerRow {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 0 20px;
+}
+.FieldHeadStyle {
+  color: var(--black, #333);
+  font-family: var(--SubHeading-font-family);
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.397rem; /* 135% */
+  letter-spacing: -0.03494rem;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.InputFieldStyle {
+  border-radius: 0.625em;
+  background: #fff;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  height: 50px;
+  border: none;
+}
+.InputFieldStyle::placeholder {
+  padding-left: 10px;
+}
+.FieldHeadingAndInputWrapper {
+  width: 48.5%;
+}
+.DescriptionFieldHeadingAndInputWrapper {
+  width: 100%;
+}
+.SubmitButtonStyle {
+  display: flex;
+  width: 35%;
+  padding: 0.78063rem 2.9925rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  border-radius: 3.05756rem;
+  background: #124342;
+  color: #fff;
+  font-size: 20px;
+  margin: 50px 0;
+  cursor: pointer;
+}
+.TextStyleOnImage {
+  color: var(--black, #222);
+  font-family: var(--Heading-font-family);
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3.625rem;
+  position: absolute;
+  top: 200px;
+}
+.BottomBlocksMainContainer {
+  display: flex;
+  margin-top: 40px;
+  width: 75%;
+  justify-content: space-between;
+}
+.BottomBlocksStyle {
+  width: 32%;
+  /* height: 24.30469rem; */
+  border-radius: 1.5625rem;
+  background: #ededed;
+  /* margin-left: 100px; */
+  padding: 10px 20px;
+}
+.BottomBlockHeadingStyle {
+  color: var(--black, #333);
+  font-family: Metropolis;
+  font-size: 1.2935rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 1.68156rem */
+  text-align: left;
+  margin-top: 20px;
+}
+.LocationBlockTextOneStyle {
+  color: var(--black, #333);
+  font-family: Metropolis;
+  font-size: 1.03481rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%; /* 1.2935rem */
+  text-align: left;
+  margin: 25px 0;
+}
+.EmailBlockTextOneStyle {
+  color: var(--black, #333);
+  font-family: Metropolis;
+  font-size: 1.03481rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%; /* 1.2935rem */
+  text-align: left;
+  margin: 5px 0;
+}
+.iconStyleBottomBlockone {
+  display: flex;
+  align-self: flex-start;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+.iconStyleBottomBlockTwo {
+  display: flex;
+  align-self: flex-start;
+  margin-top: 8px;
+  margin-bottom: 25px;
+}
+.iconStyleBottomBlockThree {
+  display: flex;
+  align-self: flex-start;
+  margin-top: 4px;
+  height: 35px;
+}
+.emailBlockTextWrapper {
+  margin-top: 25px;
+}
+.callTextWrapperContainer {
+  margin-top: 15px;
+}
+.CallBlockTextWrapper {
+  display: flex;
+}
+.phoneNumberTextStyle {
+  color: var(--black, #333);
+  font-family: Metropolis;
+  font-size: 1.03481rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%; /* 1.2935rem */
+  margin-left: 20px;
+}

@@ -30,7 +30,7 @@ function Navbar(props) {
 
   const options = [
     { id: 1, value: "Our Projects", label: "Our Projects" },
-    { id: 2, value: "option 2", label: "option 2" },
+    { id: 2, value: "Property Detail", label: "PropertyDetail" },
   ];
 
   return (
@@ -89,8 +89,9 @@ function Navbar(props) {
             onChange={(value) => {
               if (value.id == 1) {
                 navigate("/OurProjects");
+              } else if (value.id == 2) {
+                navigate("/ProperDetail");
               }
-              console.log("value", value);
             }}
             components={{
               IndicatorSeparator: () => null,

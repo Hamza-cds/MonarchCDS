@@ -1,0 +1,307 @@
+.BlogDetailsContentContentContainer {
+  width: 66%;
+}
+.BlogsDetailRouteTextContainer {
+  color: #636363;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: 20px;
+}
+.BlogsDetailLovingTextStyle {
+  color: #222222;
+  font-size: 4rem;
+  font-family: var(--Heading-font-family);
+  line-height: 43px;
+  margin: 15px;
+}
+
+.BlogsDetailIconMainWrapper {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.BlogsDetailImageStyle {
+  height: auto;
+  width: 100%;
+  border-radius: 20px;
+}
+.BlogsDetailImageStyleContainer {
+  height: auto;
+  width: 100%;
+  margin-top: 10px;
+}
+.BlogsDetailLoremTextStyle {
+  color: #a7a7a7;
+  font-size: 1.3rem;
+  font-family: var(--SubHeading-font-family);
+  margin-top: 15px;
+}
+.BlogsDesignedLoremTextStyle {
+  color: black;
+  font-size: 2rem;
+  font-family: var(--Heading-font-family);
+  font-weight: bold;
+  text-align: justify;
+  border-right: 5px solid black;
+  border-left: 5px solid black;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.BlogsHeadingTextStyle {
+  color: black;
+  font-size: 2.2rem;
+  font-family: var(--SubHeading-font-family);
+  font-weight: bold;
+}
+.BlogsDetailLoremTextStylePoint {
+  color: #a7a7a7;
+  font-size: 1.3rem;
+  font-family: var(--SubHeading-font-family);
+  margin-top: 5px;
+}
+.BlogsDetailLoremPointsContainerStyle {
+  margin-top: 20px;
+}
+.BlogsDetailArticleTextStyle {
+  color: black;
+  font-size: 1.3rem;
+  font-family: var(--SubHeading-font-family);
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.BlogsDetrailSocialImageStyle {
+  height: 60px;
+  width: 180px;
+}
+.BlogsDetailMainSocialConatainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1.5px solid black;
+  padding: 20px 0;
+}
+.BlogsDetailDropMainContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin: 35px 0;
+}
+.BlogsDropContainer {
+  display: flex;
+  align-items: center;
+  width: 25%;
+}
+.CommentTextSyle {
+  color: #636363;
+  font-size: 2.2rem;
+  font-family: var(--SubHeading-font-family);
+}
+.BlogsSortTextStyle {
+  color: #636363;
+  font-size: 1.3rem;
+  font-family: var(--SubHeading-font-family);
+  width: 100px;
+}
+
+.Select_Option_Style_Sidebar_Pro_Blogs {
+  font-size: 1.2rem !important;
+  color: #525252;
+  font-family: var(--SubHeading-font-family);
+  cursor: pointer;
+  width: 100%;
+  font-weight: 500;
+  /* border: 1.5px solid #c2c2c2; */
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.Select_Option_Style_Sidebar_Pro_Blogs .css-1jqq78o-placeholder {
+  color: #636363;
+}
+
+.Select_Option_Style_Sidebar_Pro_Blogs .css-tj5bde-Svg {
+  fill: #636363;
+}
+.Select_Option_Style_Sidebar_Pro_Blogs .css-1dimb5e-singleValue {
+  color: #636363;
+}
+.CommentDetailContainer {
+  display: flex;
+  align-items: center;
+}
+.CommentContentWrapper {
+  margin-left: 10px;
+}
+.ImageWrapper {
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+  background-color: #d9d9d9;
+}
+.CommentClockContainer {
+  display: flex;
+  align-items: center;
+}
+
+.CommentLikeButtonWrapper {
+  display: flex;
+}
+.CommentMessageWrapper {
+  display: flex;
+  margin-left: 30px;
+}
+.CommentLikeButtonMainWrapper {
+  display: flex;
+}
+.CommentPeopleName {
+  color: black;
+  font-size: 1.5rem;
+  font-family: var(--SubHeading-font-family);
+  font-weight: 600;
+}
+.CommnetDateTextStyle {
+  color: #d9d9d9;
+  font-size: 1.2rem;
+  font-family: var(--SubHeading-font-family);
+  margin-left: 10px;
+}
+.CommentActualComment {
+  color: #636363;
+  font-size: 1.3rem;
+  font-family: var(--SubHeading-font-family);
+  margin: 15px 0;
+}
+.BlogCommentMainWrapper {
+  margin-bottom: 30px;
+}
+.MoreCommentButtonStyle {
+  padding: 10px;
+  background-color: #124342;
+  color: white;
+  font-size: 1.2rem;
+  font-family: var(--SubHeading-font-family);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.BlogsInputMainConatainer {
+  background-color: #ebebeb;
+  width: 100%;
+  padding: 40px 80px;
+}
+.YourCommentTextStyle {
+  color: black;
+  font-size: 1.5rem;
+  font-family: var(--SubHeading-font-family);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.CommentDetailTextStyle {
+  color: #636363;
+  font-size: 1.3rem;
+  font-family: var(--SubHeading-font-family);
+  margin-bottom: 10px;
+}
+
+.input-wrapper {
+  flex: 1;
+}
+.input-wrapper_TextArea {
+  flex: 1;
+  margin-top: 15px;
+}
+.input-wrapper_First {
+  flex: 1;
+  margin-right: 20px;
+}
+.input-container_Blogs {
+  background-color: #fafafa;
+  border-radius: 5px;
+  display: flex;
+}
+
+.rounded-input-Blogs {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #9b9b9b;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1.3rem;
+}
+
+.NameCommentTextInfostyle {
+  color: black;
+  font-size: 1.3rem;
+  font-family: var(--SubHeading-font-family);
+  margin-bottom: 10px;
+}
+
+.InputFieldCommentMainWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.textarea-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-textarea {
+  width: 100%; /* Adjust width as needed */
+  height: 200px; /* Adjust height as needed */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+  outline: none;
+  font-size: 1.3rem;
+}
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+.myCheckbox {
+  color: #767676;
+  font-size: 1.3rem;
+  font-family: var(--SubHeading-font-family);
+}
+.MoreCommentButtonStyleSubmit {
+  padding: 10px;
+  background-color: #124342;
+  color: white;
+  font-size: 1.2rem;
+  font-family: var(--SubHeading-font-family);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 20%;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

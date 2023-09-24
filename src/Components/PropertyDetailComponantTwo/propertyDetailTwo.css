@@ -1,0 +1,67 @@
+.PropertDetailTwoMainContainer {
+  border-radius: 0.9375rem;
+  background: var(--white, #fff);
+  box-shadow: 0px 4px 20px 0px rgba(21, 32, 70, 0.07);
+  padding: 0px 40px;
+  margin-top: 20px;
+}
+.PropertDetailTwoInfoMainContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+.PropertDetailTwoInfoTextWrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 45%;
+}
+.PropertDetailTwoInfoTextOne {
+  color: var(--grey, #636363);
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.625rem; /* 162.5% */
+  margin-top: 15px;
+}
+.PropertDetailTwoInfoTextTwo {
+  color: var(--grey, #636363);
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem; /* 162.5% */
+  margin-top: 15px;
+  text-align: left;
+  width: 100px;
+}
+.PropertDetailInfoSubContainerOne {
+  width: 35%;
+}
+.PropertDetailTwoInfoSubContainerTwo {
+  width: 35%;
+  margin-right: 10%;
+}
+.PropertyFeaturesMainContainer {
+  margin-top: 80px;
+}
+.PropertFeatureInfoTextWrapper {
+  display: flex;
+  /* max-width: 45%; */
+}
+.PropertFeatureInfoIcon {
+  margin-top: 15px;
+}
+.PropertFeatureInfoText {
+  color: var(--grey, #636363);
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem; /* 162.5% */
+  margin-top: 15px;
+  text-align: left;
+  width: 120px;
+  margin-left: 5%;
+}
